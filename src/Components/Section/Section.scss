@@ -1,0 +1,27 @@
+.section{
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.sectionTitle{
+    width: 1200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    span{
+        color: orange;
+        margin-left: 5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+}
+.sectionBox{
+display: flex;
+text-align: left;
+justify-content: space-between;
+}
+.sectionText{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
+    width: 600px;
+    font-size: 18px;
+}

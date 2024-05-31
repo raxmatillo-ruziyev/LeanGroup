@@ -1,0 +1,58 @@
+.comanda{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.comandaTitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    span{
+        color: orange;
+    }
+}
+.comandaList{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+.comandaItem{
+    width: 240px;
+    padding: 20px 10px;
+}
+.comandaImg{
+    border-radius: 50%;
+
+}
+.comandaSubtitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.comandaText{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    opacity: 0.4;
+}
+.comandaLink{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 15px;
+    color: black;
+}
+.comandaBtn{
+    color: orange;
+    margin-bottom: 20px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    &:hover{
+        color: white;
+        background: orange;
+    }
+}

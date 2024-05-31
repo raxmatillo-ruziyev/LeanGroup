@@ -1,0 +1,62 @@
+.service{
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+}
+.serviceTitle{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    span{
+        color: orange;
+    }
+}
+.serviceBox{
+    margin: 20px auto;
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.serviceBtn{
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    &:hover{
+        color: white;
+        background: orange;
+    }
+}
+.serviveButton{
+    color: white;
+    border: 1px solid orange;
+    border-radius: 20px;
+    padding: 10px 30px;
+    background: orange;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    &:hover{
+        color: orange;
+        background: white;
+    }
+}
+.serviceSlide{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.serviceBtncha{
+    margin-bottom: 20px;
+    color: orange;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    &:hover{
+        color: white;
+        background: orange;
+    }
+}
